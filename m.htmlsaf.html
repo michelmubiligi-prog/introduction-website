@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Span vs Bold vs Italic vs Emphasis</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+
+        .box {
+            border: 2px solid black;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Text Tags Example</h1>
+
+    <div class="box">
+        <h2>1. Span Tag</h2>
+        <p>This is a <span class="highlight">styled text using span</span>.</p>
+        <p>👉 Span does nothing by itself, we use CSS to style it.</p>
+    </div>
+
+    <div class="box">
+        <h2>2. Bold Tag (b)</h2>
+        <p>This is <b>bold text</b> using the b tag.</p>
+        <p>👉 Just makes text bold (no special meaning).</p>
+    </div>
+
+    <div class="box">
+        <h2>3. Italic Tag (i)</h2>
+        <p>This is <i>italic text</i> using the i tag.</p>
+        <p>👉 Just changes appearance.</p>
+    </div>
+
+    <div class="box">
+        <h2>4. Emphasis Tag (em)</h2>
+        <p>This is <em>important emphasized text</em>.</p>
+        <p>👉 Adds meaning (screen readers will stress it).</p>
+    </div>
+
+    <div class="box">
+        <h2>Best Practice Example</h2>
+        <p>This is <strong>very important</strong> and <em>emphasized</em> text.</p>
+    </div>
+
+</body>
+</html>
